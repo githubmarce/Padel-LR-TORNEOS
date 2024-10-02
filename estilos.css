@@ -1,0 +1,83 @@
+.navbar {
+    position: fixed; /* Fija la navbar en la parte superior */
+    top: 0; /* Posición vertical en la parte superior */
+    left: 0; /* Posición horizontal a la izquierda */
+    right: 0; /* Extiende hasta la derecha */
+    z-index: 1000; /* Asegura que la navbar esté por encima de otros elementos */
+}
+#loginSection {
+    
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad para el formulario de login */
+    padding: 20px;
+    border-radius: 10px;
+}
+#mainContent {
+    display: none; /* Oculta la pagina principal al inicio*/
+}
+#Consejos{
+    background-color: rgba(231, 236, 243, 0.8);
+    margin: 0 auto;/*Alineacion de texto en la pagina*/
+    text-align: center; /*Alineacion de texto en el mismo recuadro*/
+    padding: 20px; /* Espacio interno del elemento. */
+    max-width: 800px;/* Ancho máximo del elemento. */
+    border-radius: 10px;/* Redondea las esquinas. */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    color: black;/*Sombra del recuadro*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif/*Fuente*/
+}
+#Titulo{
+    margin: 0 auto;/*Alineacion de texto en la pagina*/
+    text-align: center; /*Alineacion de texto en el mismo recuadro*/
+    color: aliceblue; /* color del texto*/
+    background-color: rgba(49, 120, 212, 0.61);
+    padding: 20px; 
+    max-width: 800px;
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(19, 18, 18, 0.9);
+    font-family:'Roboto Slab', serif; 
+}
+
+.carousel-item img {
+    max-width: 70%; /* Asegúrate de que las imágenes no superen el ancho del contenedor */
+    height: auto;    /* Ajusta la altura proporcionalmente */
+    object-fit: cover; /* Ajusta el contenido si es necesario */
+}
+.carousel-inner {
+    display: center;
+    justify-content: center; /* Centra horizontalmente el contenido del carrusel */
+}
+
+.container {
+    background-color: rgba(207, 213, 226, 0.699); /* Fondo blanco con opacidad */
+    padding: 20px; 
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    font-family:'Roboto Slab', serif;
+}   
+
+.label-grande {
+    font-size: 1.2rem; /* Ajusta el tamaño según prefieras */
+    font-weight: bold; /* Para que el texto esté en negrita */
+}
+
+
+.footer-content {
+    background-color: rgba(243, 244, 245, 0.8);
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.social-media {
+    margin-top: 10px
+}
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
